@@ -1,0 +1,99 @@
+body {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background-image: url("images\\background1.jpg"); */
+    background-color: green;
+    color: #fff;
+    font-family: 'Potta One', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.start-image {
+    margin: 5%;
+}
+
+.play-game-button {
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        background-color: #B20000;
+        -webkit-box-shadow: 0 0 3px #B20000;
+    }
+    50% {
+        background-color: #FF0000;
+        -webkit-box-shadow: 0 0 40px #FF0000;
+    }
+    100% {
+        background-color: #B20000;
+        -webkit-box-shadow: 0 0 3px #B20000;
+    }
+}
+
+@-moz-keyframes glowing {
+    0% {
+        background-color: #B20000;
+        -moz-box-shadow: 0 0 3px #B20000;
+    }
+    50% {
+        background-color: #FF0000;
+        -moz-box-shadow: 0 0 40px #FF0000;
+    }
+    100% {
+        background-color: #B20000;
+        -moz-box-shadow: 0 0 3px #B20000;
+    }
+}
+
+@-o-keyframes glowing {
+    0% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+    50% {
+        background-color: #FF0000;
+        box-shadow: 0 0 40px #FF0000;
+    }
+    100% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+    50% {
+        background-color: #FF0000;
+        box-shadow: 0 0 40px #FF0000;
+    }
+    100% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+}
